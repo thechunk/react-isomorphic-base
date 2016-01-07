@@ -2,7 +2,7 @@
 
 require('babel-register')({
 	presets: ['es2015', 'react'],
-	only: ['@tanepiper', 'app'],
+	only: ['quorra/lib', 'app'],
 	extensions: ['.jsx', '.js']
 });
 var server = require('./app/server');

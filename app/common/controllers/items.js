@@ -9,6 +9,10 @@ class Items {
 
 		return items;
 	}
+
+	static get(id) {
+		return { id: id };
+	}
 }
 
 export default Items;
